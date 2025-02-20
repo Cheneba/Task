@@ -28,16 +28,19 @@ Challenge Task:
 2. Create a new folder named task_folder:
    ```bash
    mkdir task_folder  
-3. Create three files named file1.txt, file2.txt, and file3.txt:
+3. Navigate into task_folder:
+   ```bash
+   cd task_folder
+4. Create three files named file1.txt, file2.txt, and file3.txt:
    ```bash
    touch file1.txt file2.txt file3.txt
-4. Delete file2.txt:rm file2.txt
+5. Delete file2.txt:rm file2.txt
    ```bash
    rm file2.txt
-5. Move file1.txt back to your Desktop:
+6. Move file1.txt back to your Desktop:
    ```bash
    mv file1.txt ../file1.txt
-6. Check your Desktop to see the moved file
+7. Check your Desktop to see the moved file
    ```bash
    cd ..
    ls
