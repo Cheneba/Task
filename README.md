@@ -21,17 +21,7 @@ Write a summary (at least 5 sentences) explaining the difference between GET, PO
    - c) PUT is for updating, POST is for creating
 
 ## 💻 Task 2: Command-Line Navigation (Linux/Git Bash)
-
-### 🎯 Objectives:
-Learn how to move between directories, create files, and manage files using the terminal while seeing changes on your Desktop.
-
-### ⚡ Note:
-Windows users should run these commands in Git Bash. [Download Git Bash here](https://gitforwindows.org/).
-
-### 📝 Practical Exercises:
-Navigate Your Desktop:
-Use the following commands in Git Bash and write down what they do:
-
+Challenge Task:
 1. Navigate to your Desktop:
    ```bash
    cd ~/Desktop
