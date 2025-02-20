@@ -41,3 +41,51 @@ Challenge Task:
    ```bash
    cd ..
    ls
+
+## 🖥️ Task 3: PHP Basics – Write Simple Code
+📝 Coding Challenge:
+a. Write a PHP script that:
+- Stores a number in a variable.
+- Checks if the number is even or odd using a conditional (if-else).
+- Displays "The number is even" or "The number is odd" based on the condition.
+   ```bash
+   // Checks if $number is even or odd
+   $number = 5;
+   if ($number % 2 === 0) {
+       echo "The number: $number is even";
+   } else {
+       echo "The number: $number is odd";
+   }
+b. Write another PHP script that:
+- Creates an array of 5 colors.
+- Uses a loop to print each color on a new line.
+   ```bash
+   // Displays colors from an array
+   $arr = array('red', 'blue', 'green', 'cyan', 'yellow');
+   foreach ($arr as $color) {
+       echo "$color<br>";
+   }
+
+c. Modify your script to display only colors that contain the letter 'e'.
+   ```bash
+   // Displays colors from an array which contain the character 'e'
+   $arr = array('red', 'blue', 'green', 'cyan', 'yellow');
+   foreach ($arr as $color) {
+       if (check_e($color)) {
+           echo "$color<br>";
+       }
+   }
+   
+   // Checks the string $color for the presence of 'e'
+   function check_e($c): bool
+   {
+       for ($i = 0; $i < strlen($c); $i++) {
+           if ($c[$i] === 'e') {
+               return true;
+           }
+       }
+       return false;
+   }
+
+*********************************************************************************
+## END
