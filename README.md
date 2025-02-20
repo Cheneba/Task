@@ -5,10 +5,10 @@
 
 **Summary**:
 Write a summary (at least 5 sentences) explaining the difference between GET, POST, PUT, and DELETE in simple terms.
-- GET:
-- POST:
-- PUT:
-- DELETE:
+- GET: The HTTP GET is used to request data from a specified resource.
+- POST:The HTTP POST method is used to send data to a server to create/update a resource.
+- PUT:The HTTP PUT method is used to create a new resource if it doesn't exist but mostly to replace a resource. It's idempotent, meaning multiple PUT requests have one and same effect.
+- DELETE:The HTTP DELETE method is used to remove data from a database
 
 ### 📝 MCQs (Multiple Choice Questions):
 1. Which HTTP method is used to retrieve data from a server?
@@ -86,6 +86,3 @@ c. Modify your script to display only colors that contain the letter 'e'.
        }
        return false;
    }
-
-*********************************************************************************
-## END
