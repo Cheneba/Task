@@ -74,18 +74,7 @@ c. Modify your script to display only colors that contain the letter 'e'.
    // Displays colors from an array which contain the character 'e'
    $arr = array('red', 'blue', 'green', 'cyan', 'yellow');
    foreach ($arr as $color) {
-       if (check_e($color)) {
+       if (str_contains($color, 'e')) {
            echo "$color<br>";
        }
-   }
-   
-   // Checks the string $color for the presence of 'e'
-   function check_e($c): bool
-   {
-       for ($i = 0; $i < strlen($c); $i++) {
-           if ($c[$i] === 'e') {
-               return true;
-           }
-       }
-       return false;
    }
