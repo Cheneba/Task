@@ -4,7 +4,7 @@
 ## 📖 Task 1: Understanding HTTP Methods
 
 **Summary**:
-Write a summary (at least 5 sentences) explaining the difference between GET, POST, PUT, and DELETE in simple terms.
+Write a summary (at least 5 sentences) explaining the difference between GET, POST, PUT, and DELETE in simple terms
 - GET: The HTTP GET is used to request data from a specified resource.
 - POST:The HTTP POST method is used to send data to a server to create/update a resource.
 - PUT:The HTTP PUT method is used to create a new resource if it doesn't exist but mostly to replace a resource. It's idempotent, meaning multiple PUT requests have one and same effect.
